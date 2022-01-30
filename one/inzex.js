@@ -1,6 +1,6 @@
 var img = new Image(100,100);
 img.crossOrigin = "anonymous";
-img.src = "./materialui/src/direct.jpeg";
+img.src = "./direct.jpeg";
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 img.onload = function () {
